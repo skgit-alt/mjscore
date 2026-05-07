@@ -27,8 +27,7 @@ export default function LoginScreen() {
     <div className="flex items-center justify-center min-h-[70vh]">
       <div className="w-full max-w-sm space-y-5">
         <div className="text-center">
-          <div className="text-4xl mb-2">🀄</div>
-          <h1 className="text-2xl font-bold gold-text">麻雀記録</h1>
+          <h1 className="text-2xl font-bold gold-text">Mj Score</h1>
           <p className="text-gray-400 mt-1 text-sm">ログインしてください</p>
         </div>
 
