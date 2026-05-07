@@ -1,0 +1,9355 @@
+[
+  {
+    "date": "2021-09-26",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -4
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 57
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -54
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -4
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -19
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -8
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -33
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2021-10-17",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -9
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -14
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 35
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 21
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -16
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -37
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": 6
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": 1
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2021-11-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 71
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 17
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 19
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 42
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 70
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -20
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 65
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -14
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 47
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2021-11-27",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -60
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 65
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -17
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -50
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 78
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -28
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -5
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 47
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 57
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -31
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 20
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 84
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -13
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -25
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 43
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2021-12-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -5
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 16
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 39
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 19
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-01-02",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 6
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -59
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 22
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 22
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 48
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 81
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -65
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -19
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -27
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-01-23",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 47
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 16
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -22
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -9
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -9
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -28
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 44
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 53
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-01-28",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -4
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -14
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -22
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -37
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -11
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -28
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 19
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-02-11",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": 0
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -54
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -17
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -3
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -28
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 75
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 41
+          }
+        ]
+      },
+      {
+        "ba": 7,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-02-23",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -6
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 24
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 41
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 16
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 49
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-03-27",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -27
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 32
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -55
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 58
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -21
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -6
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -26
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 5
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-03-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 58
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 72
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 53
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 19
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-05-15",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -28
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 61
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -55
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "世古口",
+            "rank": 2,
+            "point": -6
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -4
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -35
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 63
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "世古口",
+            "rank": 3,
+            "point": -22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-05-18",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -14
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 4
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 25
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -4
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-06-29",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 20
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 37
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 39
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 54
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-07-17",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -62
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 63
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -115
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 123
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -20
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 17
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -8
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -17
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 4
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 15
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -54
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 49
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -5
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 5
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 25
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 20,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -20
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 40
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -20
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2022-10-09",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 49
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 20
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -61
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -13
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -8
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -35
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -59
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -31
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 67
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -21
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -10
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 20
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2022-11-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 36
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 47
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -8
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -6
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 62
+          },
+          {
+            "name": "航也",
+            "rank": -4,
+            "point": -55
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -37
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2022-12-07",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -37
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 16
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 39
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -9
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -30
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 76
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 3
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 38
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-01-02",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": 5
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -58
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 26
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -28
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -38
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 34
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-01-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -25
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 8
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 54
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -74
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 24
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 63
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -38
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -32
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 62
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -62
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 8
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": 11
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -14
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -10
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 20
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2023-01-22",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 52
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -64
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -6
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 95
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -30
+          }
+        ]
+      },
+      {
+        "ba": 7,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 40
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 11
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -22
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 26
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 20
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -10
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2023-01-30",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -6
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -57
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 48
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 56
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 11
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -39
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -21
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 22
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -21
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 28
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 20
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -10
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2023-03-08",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -4
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 22
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 55
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 49
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -7
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 21
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -57
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -14
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 53
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -7
+          }
+        ]
+      },
+      {
+        "ba": 7,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-05-18",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -26
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 53
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -5
+          }
+        ]
+      },
+      {
+        "ba": 8,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 40
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-05-04",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "康孝",
+            "rank": -4,
+            "point": -23
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 15
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 40
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -5
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 12
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 74
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 62
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -19
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -16
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -5
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -5
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 57
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-08-14",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -3
+          }
+        ]
+      },
+      {
+        "ba": 7,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 37
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 4
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-09-03",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -3
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 42
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 40
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 49
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -28
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 16
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 43
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-09-18",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -57
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 82
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -16
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -16
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 66
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 7
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 85
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -9
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-10-22",
+    "numPlayers": 5,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "世古口",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -4
+          },
+          {
+            "name": "浩一",
+            "rank": 5,
+            "point": -23
+          },
+          {
+            "name": "世古口",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -21
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -20
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 88
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 47
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 20
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -10
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2023-12-06",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 30
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 5
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 7
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 28
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 71
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-01-02",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -6
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 12
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 60
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 74
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 23
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -4
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 40
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -35
+          }
+        ]
+      },
+      {
+        "ba": 10,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 20
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -10
+          }
+        ],
+        "yakuman": true
+      }
+    ]
+  },
+  {
+    "date": "2024-01-03",
+    "numPlayers": 5,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -22
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "倉田",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 38
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 33
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -5
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-02-10",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 57
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -16
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 59
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -8
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "世古口",
+            "rank": 1,
+            "point": 40
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 68
+          },
+          {
+            "name": "世古口",
+            "rank": 3,
+            "point": -35
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 23
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "世古口",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -13
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "世古口",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 52
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-03-06",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 40
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -22
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "倉田",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 12
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "倉田",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 38
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -9
+          }
+        ]
+      },
+      {
+        "ba": 7,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "倉田",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-03-30",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -29
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 22
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -7
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 90
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -30
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -58
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -32
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -29
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-05-05",
+    "numPlayers": 5,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -19
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -21
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 34
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 61
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "山内",
+            "rank": 5,
+            "point": -34
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 17
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 37
+          },
+          {
+            "name": "山内",
+            "rank": 5,
+            "point": -4
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": 4
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "永田",
+            "rank": 5,
+            "point": -38
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-07-20",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 26
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -2
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -17
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -22
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -11
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -30
+          },
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -37
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 61
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-08-11",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 25
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 45
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 39
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 60
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 34
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-09-22",
+    "numPlayers": 5,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -3
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 20
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 29
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 17
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 42
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 46
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2024-12-15",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -52
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 38
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 64
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -54
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 47
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 40
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 69
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -57
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": -2
+          }
+        ]
+      },
+      {
+        "ba": 0,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 53
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-01-02",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "祐介",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -11
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "祐介",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 52
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "祐介",
+            "rank": 2,
+            "point": -10
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -20
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -9
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 65
+          },
+          {
+            "name": "祐介",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -36
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "祐介",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-02-09",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 15
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -26
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 41
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -20
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -10
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 8
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 56
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 12
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 40
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-02-24",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -34
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -27
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -36
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 74
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 2
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 28
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -38
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 45
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -29
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-05-06",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 41
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -59
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 72
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "航也",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 55
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -22
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -35
+          },
+          {
+            "name": "航也",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-06-23",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 43
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 25
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 55
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 11
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -33
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -39
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -30
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -37
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 54
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-08-31",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 38
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 32
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -25
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 57
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -38
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-09-15",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 31
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -23
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 7
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -22
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -27
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -31
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 55
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 24
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -52
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 1
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -19
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-10-16",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 36
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -31
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 22
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 50
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 3
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -5
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 17
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -55
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -18
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -29
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -5
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -17
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -23
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 27
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "浩一",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2025-11-30",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 59
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -58
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -25
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 20
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -59
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 55
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 14
+          }
+        ]
+      },
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 3
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 44
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -21
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -16
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 33
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 47
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 14
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -2
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 18
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-01-02",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 41
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -62
+          },
+          {
+            "name": "浩一",
+            "rank": 2,
+            "point": 24
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -54
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 80
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -8
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -55
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "航也",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "浩一",
+            "rank": 1,
+            "point": 35
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 64
+          },
+          {
+            "name": "航也",
+            "rank": 3,
+            "point": -29
+          },
+          {
+            "name": "浩一",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 6,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -17
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 43
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -14
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -20
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 30
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 0
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 42
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -21
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -26
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 9
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 11
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 50
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -40
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 28
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -23
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 10
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 33
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 53
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 12
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -13
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -15
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -36
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": -4
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": -7
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -19
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 22
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 60
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 0
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -13
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -32
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": -2
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -22
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -29
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 8
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 37
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -24
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": 16
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 55
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": -3
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -24
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 38
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -15
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -55
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 47
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 14
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 57
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -24
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 13
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 45
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -56
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -6
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -54
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -20
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 39
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 5,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -28
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 54
+          },
+          {
+            "name": "永田",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "永田",
+            "rank": 1,
+            "point": 55
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -10
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -53
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 48
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -51
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -9
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 8
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 4
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -25
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 29
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -12
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 82
+          },
+          {
+            "name": "永田",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": -13
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -51
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "永田",
+            "rank": 4,
+            "point": -60
+          },
+          {
+            "name": "山内",
+            "rank": 2,
+            "point": -1
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "numPlayers": 4,
+    "rounds": [
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -11
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 5
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 34
+          },
+          {
+            "name": "山中",
+            "rank": 4,
+            "point": -32
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 2,
+            "point": 9
+          },
+          {
+            "name": "俊介",
+            "rank": 1,
+            "point": 35
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -30
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -7
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 6
+          },
+          {
+            "name": "山内",
+            "rank": 4,
+            "point": -34
+          },
+          {
+            "name": "山中",
+            "rank": 1,
+            "point": 31
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 1,
+            "point": 51
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -39
+          },
+          {
+            "name": "山内",
+            "rank": 3,
+            "point": -23
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": 7
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 3,
+            "point": -12
+          },
+          {
+            "name": "俊介",
+            "rank": 4,
+            "point": -52
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 61
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": -1
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -27
+          },
+          {
+            "name": "俊介",
+            "rank": 3,
+            "point": -22
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 46
+          },
+          {
+            "name": "山中",
+            "rank": 2,
+            "point": -1
+          }
+        ]
+      },
+      {
+        "ba": 4,
+        "results": [
+          {
+            "name": "康孝",
+            "rank": 4,
+            "point": -53
+          },
+          {
+            "name": "俊介",
+            "rank": 2,
+            "point": 23
+          },
+          {
+            "name": "山内",
+            "rank": 1,
+            "point": 44
+          },
+          {
+            "name": "山中",
+            "rank": 3,
+            "point": -18
+          }
+        ]
+      }
+    ]
+  }
+]

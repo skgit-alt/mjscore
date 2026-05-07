@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  --green-dark: #1a3a2a;
+  --green-mid: #2d5a3f;
+  --green-light: #3d7a55;
+  --gold: #c9a227;
+  --gold-light: #e8c547;
+}
+
+body {
+  background-color: var(--green-dark);
+  color: #f0ead6;
+  font-family: 'Hiragino Mincho ProN', 'Noto Serif JP', serif;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: rgba(45, 90, 63, 0.6);
+  border: 1px solid rgba(201, 162, 39, 0.3);
+  border-radius: 0.5rem;
+}
+
+.btn-gold {
+  background-color: var(--gold);
+  color: #1a1a1a;
+  font-weight: 700;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.btn-gold:hover {
+  background-color: var(--gold-light);
+}
+
+.btn-outline {
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: rgba(201, 162, 39, 0.1);
+}
+
+.btn-danger {
+  border: 1px solid #f87171;
+  color: #f87171;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: transparent;
+  font-size: 0.875rem;
+}
+
+.btn-danger:hover {
+  background-color: rgba(248, 113, 113, 0.1);
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  background-color: rgba(26, 58, 42, 0.8);
+  border: 1px solid rgba(201, 162, 39, 0.4);
+  color: #f0ead6;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(201, 162, 39, 0.2);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: rgba(26, 58, 42, 0.9);
+  color: var(--gold);
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(201, 162, 39, 0.3);
+  white-space: nowrap;
+  text-align: center;
+}
+
+td {
+  padding: 0.375rem 0.5rem;
+  border: 1px solid rgba(201, 162, 39, 0.2);
+  text-align: center;
+}
+
+tr:hover td {
+  background-color: rgba(61, 122, 85, 0.2);
+}
+
+.positive { color: #7ed4a0; }
+.negative { color: #f87171; }
+.rank-1 { color: #fbbf24; font-weight: 700; }
+.rank-2 { color: #e2e8f0; }
+.rank-3 { color: #cd7c39; }
+.rank-4 { color: #94a3b8; }
+
+.gold-border {
+  border: 1px solid rgba(201, 162, 39, 0.5);
+}
+
+.gold-text {
+  color: var(--gold);
+}
