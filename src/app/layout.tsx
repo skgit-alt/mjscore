@@ -3,8 +3,8 @@ import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
 
 export const metadata: Metadata = {
-  title: "麻雀記録",
-  description: "麻雀の対局記録・成績管理アプリ",
+  title: "Mj Score",
+  description: "Mj Score - 対局記録・成績管理",
 };
 
 export default function RootLayout({

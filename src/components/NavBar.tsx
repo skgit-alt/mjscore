@@ -39,7 +39,7 @@ export default function NavBar() {
     >
       <div className="flex items-center gap-6">
         <Link href="/" className="text-xl font-bold" style={{ color: "var(--gold)" }}>
-          🀄 麻雀記録
+          Mj Score
         </Link>
         {user && (
           <div className="flex gap-4 text-sm">
