@@ -4,7 +4,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 import {
   User,
   GoogleAuthProvider,
-  signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signOut as firebaseSignOut,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
@@ -45,6 +46,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [participantInfo, setParticipantInfo] = useState<ParticipantAccount | null>(null);
 
   useEffect(() => {
+    // リダイレクトログイン後の結果を処理
+    getRedirectResult(auth).catch(() => {});
+
     const unsubscribe = auth.onAuthStateChanged(async (u) => {
       if (u && u.uid !== process.env.NEXT_PUBLIC_ADMIN_UID) {
         const info = await getParticipantAccount(u.uid);
@@ -71,7 +75,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const signIn = async () => {
     const provider = new GoogleAuthProvider();
-    await signInWithPopup(auth, provider);
+    await signInWithRedirect(auth, provider);
   };
 
   const signInAsParticipant = async (loginId: string, password: string) => {
