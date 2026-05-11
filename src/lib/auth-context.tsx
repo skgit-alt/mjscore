@@ -3,12 +3,10 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import {
   User,
-  GoogleAuthProvider,
-  signInWithRedirect,
-  getRedirectResult,
   signOut as firebaseSignOut,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  getRedirectResult,
 } from "firebase/auth";
 import { initializeApp, getApps } from "firebase/app";
 import { getAuth } from "firebase/auth";
@@ -23,7 +21,7 @@ interface AuthContextType {
   isParticipant: boolean;
   participantInfo: ParticipantAccount | null;
   authError: string;
-  signIn: () => Promise<void>;
+  signIn: (email: string, password: string) => Promise<void>;
   signInAsParticipant: (loginId: string, password: string) => Promise<void>;
   createParticipant: (loginId: string, password: string) => Promise<string>;
   signOut: () => Promise<void>;
@@ -37,6 +35,7 @@ const AuthContext = createContext<AuthContextType>({
   participantInfo: null,
   authError: "",
   signIn: async () => {},
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   signInAsParticipant: async () => {},
   createParticipant: async () => "",
   signOut: async () => {},
@@ -88,9 +87,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const isAdmin = user?.uid === process.env.NEXT_PUBLIC_ADMIN_UID;
   const isParticipant = !!user && !isAdmin && !!participantInfo;
 
-  const signIn = async () => {
-    const provider = new GoogleAuthProvider();
-    await signInWithRedirect(auth, provider);
+  const signIn = async (email: string, password: string) => {
+    await signInWithEmailAndPassword(auth, email, password);
   };
 
   const signInAsParticipant = async (loginId: string, password: string) => {
