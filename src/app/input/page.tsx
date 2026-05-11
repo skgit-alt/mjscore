@@ -17,12 +17,19 @@ interface RoundRow {
   rankOverrides: Record<string, number>;
   absentId: string | null;
   roundMode: "5" | "4";
-  tobiKillerIds: Record<string, string>; // 飛びプレイヤーID → 飛ばしたプレイヤーID
+  tobiKillerIds: Record<string, string>;
 }
 
 interface HiruRow {
   points: Record<string, string>;
   firstPlayerId: string | null;
+  isConfirmed: boolean;
+}
+
+interface YakumanRow {
+  id: number;
+  winnerId: string | null;
+  bonusPerPlayer: number;
   isConfirmed: boolean;
 }
 
@@ -97,6 +104,20 @@ function calcHiru(
   return sorted.map(([playerId, point], idx) => ({ playerId, point, rank: idx + 1 }));
 }
 
+function calcYakumanResults(
+  yaku: YakumanRow,
+  playerIds: string[]
+): { playerId: string; point: number }[] | null {
+  if (!yaku.winnerId || !playerIds.includes(yaku.winnerId)) return null;
+  return playerIds.map((id) => ({
+    playerId: id,
+    point:
+      id === yaku.winnerId
+        ? (playerIds.length - 1) * yaku.bonusPerPlayer
+        : -yaku.bonusPerPlayer,
+  }));
+}
+
 function getUmaLabel(rank: number, numPlayers: 3 | 4 | 5, settings: Settings): string {
   const uma =
     numPlayers === 5 ? UMA5 : numPlayers === 4 ? settings.uma4 : settings.uma3;
@@ -120,6 +141,7 @@ function loadDraft() {
       rows: RoundRow[];
       playedAt?: string;
       hiruRow?: HiruRow;
+      yakumanRows?: YakumanRow[];
     };
   } catch { return null; }
 }
@@ -129,11 +151,12 @@ function saveDraft(
   confirmed: boolean,
   rows: RoundRow[],
   playedAt: string,
-  hiruRow: HiruRow | null
+  hiruRow: HiruRow | null,
+  yakumanRows: YakumanRow[]
 ) {
   localStorage.setItem(
     STORAGE_KEY,
-    JSON.stringify({ selectedIds, confirmed, rows, playedAt, hiruRow })
+    JSON.stringify({ selectedIds, confirmed, rows, playedAt, hiruRow, yakumanRows })
   );
 }
 
@@ -161,6 +184,7 @@ export default function InputPage() {
   const [confirmed, setConfirmed] = useState(false);
   const [rows, setRows] = useState<RoundRow[]>([]);
   const [hiruRow, setHiruRow] = useState<HiruRow | null>(null);
+  const [yakumanRows, setYakumanRows] = useState<YakumanRow[]>([]);
   const [playedAt, setPlayedAt] = useState<string>(todayStr());
   const [saving, setSaving] = useState(false);
   const [newPlayerName, setNewPlayerName] = useState("");
@@ -177,15 +201,16 @@ export default function InputPage() {
         setRows(draft.rows.map((r) => ({ ...r, absentId: r.absentId ?? null, roundMode: r.roundMode ?? "5", tobiKillerIds: r.tobiKillerIds ?? {} })));
         if (draft.playedAt) setPlayedAt(draft.playedAt);
         if (draft.hiruRow) setHiruRow(draft.hiruRow);
+        if (draft.yakumanRows) setYakumanRows(draft.yakumanRows);
       }
     });
   }, []);
 
   useEffect(() => {
     if (selectedIds.length > 0 || rows.length > 0) {
-      saveDraft(selectedIds, confirmed, rows, playedAt, hiruRow);
+      saveDraft(selectedIds, confirmed, rows, playedAt, hiruRow, yakumanRows);
     }
-  }, [selectedIds, confirmed, rows, playedAt, hiruRow]);
+  }, [selectedIds, confirmed, rows, playedAt, hiruRow, yakumanRows]);
 
   const numSelected = selectedIds.length;
   const activePlayers = allPlayers.filter((p) => selectedIds.includes(p.id));
@@ -248,13 +273,49 @@ export default function InputPage() {
     setRows((prev) => prev.filter((r) => r.id !== id));
   }, []);
 
+  // --- Yakuman callbacks ---
+  const addYakumanRow = useCallback(() => {
+    setYakumanRows((prev) => [
+      ...prev,
+      { id: Date.now(), winnerId: null, bonusPerPlayer: 10, isConfirmed: false },
+    ]);
+  }, []);
+
+  const removeYakumanRow = useCallback((id: number) => {
+    setYakumanRows((prev) => prev.filter((y) => y.id !== id));
+  }, []);
+
+  const updateYakumanWinner = useCallback((id: number, winnerId: string) => {
+    setYakumanRows((prev) =>
+      prev.map((y) => (y.id === id ? { ...y, winnerId } : y))
+    );
+  }, []);
+
+  const updateYakumanBonus = useCallback((id: number, bonusPerPlayer: number) => {
+    setYakumanRows((prev) =>
+      prev.map((y) => (y.id === id ? { ...y, bonusPerPlayer } : y))
+    );
+  }, []);
+
+  const confirmYakumanRow = useCallback((id: number) => {
+    setYakumanRows((prev) =>
+      prev.map((y) => (y.id === id ? { ...y, isConfirmed: true } : y))
+    );
+  }, []);
+
+  const unconfirmYakumanRow = useCallback((id: number) => {
+    setYakumanRows((prev) =>
+      prev.map((y) => (y.id === id ? { ...y, isConfirmed: false } : y))
+    );
+  }, []);
+
+  // --- Score callbacks ---
   const updateScore = useCallback((rowId: number, playerId: string, value: string) => {
     setRows((prev) =>
       prev.map((r) => {
         if (r.id !== rowId) return r;
         const newOverrides = { ...(r.rankOverrides ?? {}) };
         delete newOverrides[playerId];
-        // スコアが非マイナスになったら飛びの紐付けを解除
         const newKillers = { ...r.tobiKillerIds };
         if (value === "" || value == null || Number(value) >= 0) {
           delete newKillers[playerId];
@@ -307,7 +368,7 @@ export default function InputPage() {
         if (r.id !== rowId) return r;
         const newKillers = { ...r.tobiKillerIds };
         if (newKillers[tobiId] === killerId) {
-          delete newKillers[tobiId]; // 同じ人を再クリックで解除
+          delete newKillers[tobiId];
         } else {
           newKillers[tobiId] = killerId;
         }
@@ -324,6 +385,7 @@ export default function InputPage() {
     );
   }, []);
 
+  // --- Totals (regular + yakuman) ---
   const totals: Record<string, number> = {};
   activePlayerIds.forEach((id) => (totals[id] = 0));
   rows.forEach((row) => {
@@ -334,6 +396,15 @@ export default function InputPage() {
       });
     }
   });
+  yakumanRows.forEach((yaku) => {
+    const results = calcYakumanResults(yaku, activePlayerIds);
+    if (results) {
+      results.forEach((r) => {
+        if (totals[r.playerId] !== undefined) totals[r.playerId] += r.point;
+      });
+    }
+  });
+
   const hiruResults = hiruRow ? calcHiru(hiruRow, activePlayerIds) : null;
 
   const handleSave = async () => {
@@ -352,9 +423,11 @@ export default function InputPage() {
       let totalBa = 0;
       const roundDetails: {
         ba: number;
+        yakuman?: boolean;
         results: { playerId: string; score: number | null; point: number; rank: number; tobi?: boolean }[];
       }[] = [];
 
+      // Regular rounds
       rows.forEach((row) => {
         const results = calcRow(row, activePlayerIds, settings, numSelected);
         if (!results) return;
@@ -373,6 +446,26 @@ export default function InputPage() {
             point: r.point,
             rank: r.rank,
             ...(r.tobi ? { tobi: true } : {}),
+          })),
+        });
+      });
+
+      // Yakuman rounds
+      yakumanRows.forEach((yaku) => {
+        if (!yaku.isConfirmed || !yaku.winnerId) return;
+        const results = calcYakumanResults(yaku, activePlayerIds);
+        if (!results) return;
+        results.forEach((r) => {
+          totalPoints[r.playerId] += r.point;
+        });
+        roundDetails.push({
+          ba: yaku.bonusPerPlayer,
+          yakuman: true,
+          results: results.map((r) => ({
+            playerId: r.playerId,
+            score: null,
+            point: r.point,
+            rank: r.playerId === yaku.winnerId ? 1 : 2,
           })),
         });
       });
@@ -514,7 +607,7 @@ export default function InputPage() {
               </span>
             </div>
             <button
-              onClick={() => { setConfirmed(false); setRows([]); clearDraft(); }}
+              onClick={() => { setConfirmed(false); setRows([]); setYakumanRows([]); clearDraft(); }}
               className="text-xs btn-outline py-1 px-2 shrink-0"
             >
               変更
@@ -616,7 +709,6 @@ export default function InputPage() {
                         const isAbsent = row.absentId === p.id;
                         const result = results?.find((r) => r.playerId === p.id);
 
-                        // 抜けプレイヤーのセル（②1人抜けモードかつ選択済みのとき）
                         if (isAbsent && row.roundMode === "4") {
                           return (
                             <td key={p.id} className="p-2">
@@ -640,7 +732,6 @@ export default function InputPage() {
                           );
                         }
 
-                        // 確定後の表示
                         if (row.isConfirmed && result) {
                           const umaLabel = getUmaLabel(result.rank, rowNp, settings);
                           return (
@@ -667,11 +758,9 @@ export default function InputPage() {
                           );
                         }
 
-                        // 入力中の表示
                         return (
                           <td key={p.id} className="p-2">
                             <div className="flex flex-col items-center gap-1">
-                              {/* ②1人抜けモード：抜けるボタン */}
                               {numSelected === 5 && row.roundMode === "4" && !row.isConfirmed && (
                                 <button
                                   onClick={() => updateAbsent(row.id, p.id)}
@@ -691,7 +780,6 @@ export default function InputPage() {
                                 </button>
                               )}
 
-                              {/* 1位ラジオ */}
                               <label
                                 className="flex items-center gap-1 cursor-pointer text-xs"
                                 style={{ color: isFirst ? "var(--gold)" : "#888" }}
@@ -706,7 +794,6 @@ export default function InputPage() {
                                 1位
                               </label>
 
-                              {/* 得点入力 or 自動表示 */}
                               {isFirst ? (
                                 <div className="flex items-center gap-0.5">
                                   <div
@@ -737,7 +824,6 @@ export default function InputPage() {
                                 </div>
                               )}
 
-                              {/* 飛び：飛ばした人を選ぶ */}
                               {!isFirst &&
                                 row.scores[p.id] != null &&
                                 row.scores[p.id] !== "" &&
@@ -782,7 +868,6 @@ export default function InputPage() {
                                 </div>
                               )}
 
-                              {/* 同点：順位選択ボタン */}
                               {!isFirst && tiedGroupMap[p.id] && (() => {
                                 const { group, availableRanks } = tiedGroupMap[p.id];
                                 const currentOverride = (row.rankOverrides ?? {})[p.id];
@@ -842,7 +927,6 @@ export default function InputPage() {
                                 );
                               })()}
 
-                              {/* 順位・ウマ・ポイント（同点解決済みまたは同点なし） */}
                               {result && (
                                 <div className="flex flex-col items-center gap-0.5">
                                   <div className="flex items-center gap-1 flex-wrap justify-center">
@@ -863,7 +947,6 @@ export default function InputPage() {
                                       {result.score.toLocaleString()}点
                                     </span>
                                   )}
-                                  {/* 飛ばしボーナス表示 */}
                                   {(() => {
                                     const killCount = Object.values(row.tobiKillerIds ?? {}).filter((id) => id === p.id).length;
                                     return killCount > 0 ? (
@@ -935,6 +1018,126 @@ export default function InputPage() {
                               同点：<br />順位を<br />選択して
                             </span>
                           )}
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
+
+                {/* 役満祝儀行 */}
+                {yakumanRows.map((yaku) => {
+                  const results = calcYakumanResults(yaku, activePlayerIds);
+                  const canConfirm = !!yaku.winnerId && yaku.bonusPerPlayer > 0;
+                  return (
+                    <tr
+                      key={`yaku-${yaku.id}`}
+                      style={{ background: "rgba(251,191,36,0.07)", borderTop: "1px solid rgba(251,191,36,0.3)" }}
+                    >
+                      {/* 回ラベル */}
+                      <td>
+                        <div
+                          className="flex flex-col items-center gap-0.5 py-1"
+                          style={{ color: "#fbbf24", fontSize: "0.7rem", fontWeight: 700, lineHeight: 1.3 }}
+                        >
+                          🎊<br />役満<br />祝儀
+                        </div>
+                      </td>
+
+                      {/* プレイヤーセル */}
+                      {activePlayers.map((p) => {
+                        const isWinner = yaku.winnerId === p.id;
+                        const result = results?.find((r) => r.playerId === p.id);
+                        return (
+                          <td key={p.id} className="p-2">
+                            <div className="flex flex-col items-center gap-1">
+                              {/* 上がりボタン */}
+                              {!yaku.isConfirmed ? (
+                                <button
+                                  onClick={() => updateYakumanWinner(yaku.id, p.id)}
+                                  style={{
+                                    background: isWinner ? "rgba(251,191,36,0.25)" : "transparent",
+                                    border: `1px solid ${isWinner ? "#fbbf24" : "rgba(201,162,39,0.25)"}`,
+                                    color: isWinner ? "#fbbf24" : "#666",
+                                    borderRadius: "6px",
+                                    padding: "4px 10px",
+                                    cursor: "pointer",
+                                    fontWeight: isWinner ? 700 : 400,
+                                    fontSize: "0.8rem",
+                                    width: "100%",
+                                    transition: "all 0.15s",
+                                  }}
+                                >
+                                  {isWinner ? "🎊 上がり" : "上がり"}
+                                </button>
+                              ) : (
+                                isWinner && (
+                                  <span style={{ color: "#fbbf24", fontSize: "0.75rem", fontWeight: 700 }}>
+                                    🎊 役満
+                                  </span>
+                                )
+                              )}
+                              {/* ポイント表示 */}
+                              {result && (
+                                <span
+                                  className={`font-bold text-sm ${result.point >= 0 ? "positive" : "negative"}`}
+                                >
+                                  {result.point >= 0 ? "+" : ""}{result.point}p
+                                </span>
+                              )}
+                            </div>
+                          </td>
+                        );
+                      })}
+
+                      {/* 祝儀額 */}
+                      <td className="p-1">
+                        {yaku.isConfirmed ? (
+                          <div className="flex flex-col items-center gap-0.5">
+                            <span className="text-xs font-bold" style={{ color: "#fbbf24" }}>
+                              +{yaku.bonusPerPlayer}p
+                            </span>
+                            <span className="text-xs text-gray-500">／人</span>
+                          </div>
+                        ) : (
+                          <div className="flex flex-col items-center gap-1">
+                            <input
+                              type="number"
+                              value={yaku.bonusPerPlayer}
+                              onChange={(e) => updateYakumanBonus(yaku.id, Number(e.target.value))}
+                              className="w-14 text-center"
+                              min="1"
+                            />
+                            <span className="text-xs text-gray-500">p／人</span>
+                          </div>
+                        )}
+                      </td>
+
+                      {/* 確定・削除 */}
+                      <td className="p-1">
+                        <div className="flex flex-col items-center gap-1">
+                          {yaku.isConfirmed ? (
+                            <button
+                              onClick={() => unconfirmYakumanRow(yaku.id)}
+                              className="text-xs btn-outline py-1 px-2"
+                            >
+                              修正
+                            </button>
+                          ) : (
+                            <button
+                              onClick={() => confirmYakumanRow(yaku.id)}
+                              disabled={!canConfirm}
+                              className="btn-gold text-xs py-1 px-2 disabled:opacity-30 disabled:cursor-not-allowed"
+                              style={{ background: canConfirm ? "rgba(251,191,36,0.9)" : undefined }}
+                            >
+                              確定
+                            </button>
+                          )}
+                          <button
+                            onClick={() => removeYakumanRow(yaku.id)}
+                            className="text-gray-500 hover:text-red-400 transition-colors text-sm"
+                          >
+                            削除
+                          </button>
                         </div>
                       </td>
                     </tr>
@@ -1108,10 +1311,21 @@ export default function InputPage() {
             </table>
           </div>
 
-          <div className="flex gap-3 justify-between">
-            <div className="flex gap-3">
+          <div className="flex gap-3 justify-between flex-wrap">
+            <div className="flex gap-2 flex-wrap">
               <button onClick={addRow} className="btn-outline">
                 ＋ 行を追加
+              </button>
+              <button
+                onClick={addYakumanRow}
+                className="text-xs font-semibold px-3 py-2 rounded transition-all"
+                style={{
+                  background: "rgba(251,191,36,0.12)",
+                  border: "1px solid rgba(251,191,36,0.5)",
+                  color: "#fbbf24",
+                }}
+              >
+                🎊 役満祝儀
               </button>
               <button
                 onClick={() => {
@@ -1120,6 +1334,7 @@ export default function InputPage() {
                   setConfirmed(false);
                   setRows([]);
                   setHiruRow(null);
+                  setYakumanRows([]);
                   setPlayedAt(todayStr());
                   clearDraft();
                 }}
