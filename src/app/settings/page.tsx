@@ -150,7 +150,7 @@ export default function SettingsPage() {
       if (msg === "auth/email-already-in-use") {
         setAccountError("このIDはすでに使用されています");
       } else {
-        setAccountError("アカウントの作成に失敗しました");
+        setAccountError(`アカウントの作成に失敗しました（${msg ?? String(err)}）`);
       }
     } finally {
       setCreatingAccount(false);
