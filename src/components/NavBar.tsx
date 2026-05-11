@@ -53,7 +53,7 @@ export default function NavBar() {
           </span>
         </Link>
         {user && (
-          <div className="flex gap-5">
+          <div className="hidden sm:flex gap-5">
             {navLink("/", "成績")}
             {navLink("/history", "履歴")}
             {(isAdmin || isParticipant) && navLink("/input", "入力")}

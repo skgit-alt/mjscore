@@ -141,13 +141,13 @@ export default function HomePage() {
               <th>順位</th>
               <th>プレイヤー</th>
               <th>通算P</th>
-              <th>半荘数</th>
               <th>平均順位</th>
               <th>1位率</th>
-              <th>2位率</th>
-              <th>3位率</th>
-              <th>4位率</th>
-              <th>飛び率</th>
+              <th className="hidden sm:table-cell">2位率</th>
+              <th className="hidden sm:table-cell">3位率</th>
+              <th className="hidden sm:table-cell">4位率</th>
+              <th className="hidden sm:table-cell">飛び率</th>
+              <th className="hidden sm:table-cell">半荘数</th>
             </tr>
           </thead>
           <tbody>
@@ -171,13 +171,13 @@ export default function HomePage() {
                   </td>
                   <td className="font-semibold">{s.name}</td>
                   <td><PointBadge point={s.totalPoint} /></td>
-                  <td>{s.gameCount}</td>
                   <td>{no ? "—" : s.avgRank.toFixed(2)}</td>
                   <td className="rank-1">{no ? "—" : f(s.firstRate)}</td>
-                  <td className="rank-2">{no ? "—" : f(s.secondRate)}</td>
-                  <td className="rank-3">{no ? "—" : f(s.thirdRate)}</td>
-                  <td className="rank-4">{no ? "—" : f(s.fourthRate)}</td>
-                  <td className="negative">{no ? "—" : f(s.tobiRate)}</td>
+                  <td className="hidden sm:table-cell rank-2">{no ? "—" : f(s.secondRate)}</td>
+                  <td className="hidden sm:table-cell rank-3">{no ? "—" : f(s.thirdRate)}</td>
+                  <td className="hidden sm:table-cell rank-4">{no ? "—" : f(s.fourthRate)}</td>
+                  <td className="hidden sm:table-cell negative">{no ? "—" : f(s.tobiRate)}</td>
+                  <td className="hidden sm:table-cell">{s.gameCount}</td>
                 </tr>
               );
             })}

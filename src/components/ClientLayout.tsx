@@ -10,6 +10,7 @@ const AuthProvider = dynamic(
 );
 
 const NavBar = dynamic(() => import("@/components/NavBar"), { ssr: false });
+const MobileNav = dynamic(() => import("@/components/MobileNav"), { ssr: false });
 
 function LoginGate({ children }: { children: React.ReactNode }) {
   const { user, loading } = useAuth();
@@ -33,9 +34,11 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
   return (
     <AuthProvider>
       <NavBar />
-      <main className="flex-1 container mx-auto px-4 py-6 max-w-6xl">
+      {/* sm:pb-6 = desktop padding, pb-24 = mobile bottom nav space */}
+      <main className="flex-1 container mx-auto px-4 py-6 max-w-6xl pb-24 sm:pb-8">
         <LoginGate>{children}</LoginGate>
       </main>
+      <MobileNav />
     </AuthProvider>
   );
 }
