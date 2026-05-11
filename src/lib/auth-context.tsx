@@ -6,6 +6,9 @@ import {
   signOut as firebaseSignOut,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
+  updatePassword as firebaseUpdatePassword,
+  EmailAuthProvider,
+  reauthenticateWithCredential,
   getRedirectResult,
 } from "firebase/auth";
 import { initializeApp, getApps } from "firebase/app";
@@ -25,6 +28,7 @@ interface AuthContextType {
   signInAsParticipant: (loginId: string, password: string) => Promise<void>;
   createParticipant: (loginId: string, password: string) => Promise<string>;
   signOut: () => Promise<void>;
+  changePassword: (currentPassword: string, newPassword: string) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType>({
@@ -39,6 +43,7 @@ const AuthContext = createContext<AuthContextType>({
   signInAsParticipant: async () => {},
   createParticipant: async () => "",
   signOut: async () => {},
+  changePassword: async () => {},
 });
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
@@ -118,9 +123,16 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setParticipantInfo(null);
   };
 
+  const changePassword = async (currentPassword: string, newPassword: string) => {
+    if (!auth.currentUser || !auth.currentUser.email) throw new Error("not logged in");
+    const credential = EmailAuthProvider.credential(auth.currentUser.email, currentPassword);
+    await reauthenticateWithCredential(auth.currentUser, credential);
+    await firebaseUpdatePassword(auth.currentUser, newPassword);
+  };
+
   return (
     <AuthContext.Provider
-      value={{ user, loading, isAdmin, isParticipant, participantInfo, authError, signIn, signInAsParticipant, createParticipant, signOut }}
+      value={{ user, loading, isAdmin, isParticipant, participantInfo, authError, signIn, signInAsParticipant, createParticipant, signOut, changePassword }}
     >
       {children}
     </AuthContext.Provider>

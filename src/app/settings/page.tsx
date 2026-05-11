@@ -16,7 +16,39 @@ import { Player, Settings, DEFAULT_SETTINGS, ParticipantAccount } from "@/lib/ty
 import { useAuth } from "@/lib/auth-context";
 
 export default function SettingsPage() {
-  const { createParticipant } = useAuth();
+  const { createParticipant, changePassword } = useAuth();
+
+  // パスワード変更
+  const [currentPassword, setCurrentPassword] = useState("");
+  const [newPassword1, setNewPassword1] = useState("");
+  const [newPassword2, setNewPassword2] = useState("");
+  const [pwError, setPwError] = useState("");
+  const [pwSuccess, setPwSuccess] = useState("");
+  const [changingPw, setChangingPw] = useState(false);
+
+  const handleChangePassword = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setPwError("");
+    setPwSuccess("");
+    if (newPassword1.length < 6) { setPwError("新しいパスワードは6文字以上にしてください"); return; }
+    if (newPassword1 !== newPassword2) { setPwError("新しいパスワードが一致しません"); return; }
+    setChangingPw(true);
+    try {
+      await changePassword(currentPassword, newPassword1);
+      setPwSuccess("パスワードを変更しました");
+      setCurrentPassword(""); setNewPassword1(""); setNewPassword2("");
+      setTimeout(() => setPwSuccess(""), 3000);
+    } catch (err: unknown) {
+      const code = (err as { code?: string })?.code;
+      if (code === "auth/wrong-password" || code === "auth/invalid-credential") {
+        setPwError("現在のパスワードが正しくありません");
+      } else {
+        setPwError("変更に失敗しました");
+      }
+    } finally {
+      setChangingPw(false);
+    }
+  };
   const [players, setPlayers] = useState<Player[]>([]);
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [editingId, setEditingId] = useState<string | null>(null);
@@ -419,6 +451,31 @@ export default function SettingsPage() {
               <span className="text-sm text-green-400">✓ 保存しました</span>
             )}
           </div>
+        </section>
+      {/* パスワード変更 */}
+        <section className="card p-5 space-y-4">
+          <h2 className="text-lg font-semibold gold-text border-b border-yellow-900/40 pb-2">
+            パスワード変更
+          </h2>
+          <form onSubmit={handleChangePassword} className="space-y-3 max-w-sm">
+            <label className="flex flex-col gap-1">
+              <span className="text-sm text-gray-300">現在のパスワード</span>
+              <input type="password" value={currentPassword} onChange={(e) => setCurrentPassword(e.target.value)} required />
+            </label>
+            <label className="flex flex-col gap-1">
+              <span className="text-sm text-gray-300">新しいパスワード</span>
+              <input type="password" value={newPassword1} onChange={(e) => setNewPassword1(e.target.value)} required />
+            </label>
+            <label className="flex flex-col gap-1">
+              <span className="text-sm text-gray-300">新しいパスワード（確認）</span>
+              <input type="password" value={newPassword2} onChange={(e) => setNewPassword2(e.target.value)} required />
+            </label>
+            {pwError && <p className="text-sm text-red-400">{pwError}</p>}
+            {pwSuccess && <p className="text-sm text-green-400">✓ {pwSuccess}</p>}
+            <button type="submit" disabled={changingPw} className="btn-gold disabled:opacity-50">
+              {changingPw ? "変更中..." : "パスワードを変更"}
+            </button>
+          </form>
         </section>
       </div>
     </AuthGuard>
