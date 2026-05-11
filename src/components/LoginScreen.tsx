@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
 
 export default function LoginScreen() {
-  const { signIn, signInAsParticipant } = useAuth();
+  const { signIn, signInAsParticipant, authError } = useAuth();
   const [loginId, setLoginId] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -69,6 +69,10 @@ export default function LoginScreen() {
             </button>
           </form>
         </div>
+
+        {authError && (
+          <p className="text-xs text-red-400 break-all bg-red-950/30 p-2 rounded">{authError}</p>
+        )}
 
         {/* 管理者ログイン */}
         <div className="card p-4 space-y-2">

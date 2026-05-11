@@ -22,6 +22,7 @@ interface AuthContextType {
   isAdmin: boolean;
   isParticipant: boolean;
   participantInfo: ParticipantAccount | null;
+  authError: string;
   signIn: () => Promise<void>;
   signInAsParticipant: (loginId: string, password: string) => Promise<void>;
   createParticipant: (loginId: string, password: string) => Promise<string>;
@@ -34,6 +35,7 @@ const AuthContext = createContext<AuthContextType>({
   isAdmin: false,
   isParticipant: false,
   participantInfo: null,
+  authError: "",
   signIn: async () => {},
   signInAsParticipant: async () => {},
   createParticipant: async () => "",
@@ -44,25 +46,38 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [participantInfo, setParticipantInfo] = useState<ParticipantAccount | null>(null);
+  const [authError, setAuthError] = useState("");
 
   useEffect(() => {
     // リダイレクトログイン後の結果を処理
-    getRedirectResult(auth).catch(() => {});
+    getRedirectResult(auth).catch((err) => {
+      setAuthError(`redirect error: ${err?.code ?? err?.message ?? String(err)}`);
+    });
 
     const unsubscribe = auth.onAuthStateChanged(async (u) => {
-      if (u && u.uid !== process.env.NEXT_PUBLIC_ADMIN_UID) {
-        const info = await getParticipantAccount(u.uid);
-        if (!info) {
-          // アカウント登録のないユーザーは自動サインアウト
-          await firebaseSignOut(auth);
-          setUser(null);
-          setParticipantInfo(null);
+      try {
+        const adminUid = process.env.NEXT_PUBLIC_ADMIN_UID;
+        if (u && u.uid !== adminUid) {
+          const info = await getParticipantAccount(u.uid);
+          if (!info) {
+            // アカウント登録のないユーザーは自動サインアウト
+            setAuthError(`uid=${u.uid} adminUid=${adminUid ?? "UNSET"} → signed out`);
+            await firebaseSignOut(auth);
+            setUser(null);
+            setParticipantInfo(null);
+          } else {
+            setUser(u);
+            setParticipantInfo(info);
+          }
         } else {
           setUser(u);
-          setParticipantInfo(info);
+          setParticipantInfo(null);
         }
-      } else {
-        setUser(u);
+      } catch (err: unknown) {
+        const msg = (err as { code?: string; message?: string })?.code ?? (err as { message?: string })?.message ?? String(err);
+        setAuthError(`auth error: ${msg}`);
+        await firebaseSignOut(auth).catch(() => {});
+        setUser(null);
         setParticipantInfo(null);
       }
       setLoading(false);
@@ -107,7 +122,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   return (
     <AuthContext.Provider
-      value={{ user, loading, isAdmin, isParticipant, participantInfo, signIn, signInAsParticipant, createParticipant, signOut }}
+      value={{ user, loading, isAdmin, isParticipant, participantInfo, authError, signIn, signInAsParticipant, createParticipant, signOut }}
     >
       {children}
     </AuthContext.Provider>
