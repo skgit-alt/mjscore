@@ -153,7 +153,9 @@ export default function HistoryPage() {
                   // 各プレイヤーの半荘合計
                   const roundTotals: Record<string, number> = {};
                   colPlayers.forEach((id) => (roundTotals[id] = 0));
+                  let totalBa = 0;
                   game.rounds!.forEach((round) => {
+                    if (!round.yakuman) totalBa += round.ba;
                     round.results.forEach((r) => {
                       if (roundTotals[r.playerId] !== undefined) roundTotals[r.playerId] += r.point;
                     });
@@ -191,7 +193,9 @@ export default function HistoryPage() {
                                         if (!r) return <td key={id}>—</td>;
                                         return (
                                           <td key={id}>
-                                            <PointBadge point={r.point} />
+                                            <span className={`font-semibold text-sm ${r.point >= 0 ? "positive" : "negative"}`}>
+                                              {r.point >= 0 ? "+" : ""}{r.point}p
+                                            </span>
                                           </td>
                                         );
                                       })}
@@ -209,8 +213,10 @@ export default function HistoryPage() {
                                       return (
                                         <td key={id}>
                                           <div className="flex flex-col items-center gap-0.5">
-                                            <span className="text-xs text-gray-300">{r.rank}位</span>
-                                            <PointBadge point={r.point} />
+                                            <span className="text-gray-400" style={{ fontSize: "0.65rem" }}>{r.rank}位</span>
+                                            <span className={`font-semibold text-sm ${r.point >= 0 ? "positive" : "negative"}`}>
+                                              {r.point >= 0 ? "+" : ""}{r.point}p
+                                            </span>
                                             {r.tobi && (
                                               <span className="text-xs font-bold" style={{ color: "#f87171" }}>飛び</span>
                                             )}
@@ -227,9 +233,13 @@ export default function HistoryPage() {
                             <tr style={{ background: "rgba(26,58,42,0.7)", borderTop: "1px solid rgba(201,162,39,0.3)" }}>
                               <td className="font-semibold gold-text text-xs">合計</td>
                               {colPlayers.map((id) => (
-                                <td key={id}><PointBadge point={roundTotals[id]} /></td>
+                                <td key={id}>
+                                  <span className={`font-semibold text-sm ${roundTotals[id] >= 0 ? "positive" : "negative"}`}>
+                                    {roundTotals[id] >= 0 ? "+" : ""}{roundTotals[id]}p
+                                  </span>
+                                </td>
                               ))}
-                              <td></td>
+                              <td className="positive text-xs">+{totalBa}p</td>
                             </tr>
                           </tbody>
                         </table>
