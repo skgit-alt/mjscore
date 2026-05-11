@@ -209,7 +209,7 @@ export default function HistoryPage() {
                                       return (
                                         <td key={id}>
                                           <div className="flex flex-col items-center gap-0.5">
-                                            <span className={`rank-${r.rank} text-xs`}>{r.rank}位</span>
+                                            <span className="text-xs text-gray-300">{r.rank}位</span>
                                             <PointBadge point={r.point} />
                                             {r.tobi && (
                                               <span className="text-xs font-bold" style={{ color: "#f87171" }}>飛び</span>
