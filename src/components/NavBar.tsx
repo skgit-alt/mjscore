@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 
@@ -13,10 +14,10 @@ export default function NavBar() {
     return (
       <Link
         href={href}
-        className="transition-colors"
+        className="transition-colors text-sm"
         style={isActive
           ? { color: "var(--gold)", fontWeight: 600, borderBottom: "2px solid var(--gold)", paddingBottom: "2px" }
-          : { color: "inherit" }
+          : { color: "rgba(240,234,214,0.7)" }
         }
       >
         {label}
@@ -25,24 +26,34 @@ export default function NavBar() {
   };
 
   const displayName = isAdmin
-    ? user?.displayName ?? "管理者"
+    ? "管理者"
     : participantInfo?.displayName ?? "";
 
   return (
     <nav
-      className="sticky top-0 z-50 px-4 py-3 flex items-center justify-between"
+      className="sticky top-0 z-50 px-4 py-2.5 flex items-center justify-between"
       style={{
-        background: "rgba(26, 58, 42, 0.95)",
-        borderBottom: "1px solid rgba(201, 162, 39, 0.4)",
-        backdropFilter: "blur(8px)",
+        background: "rgba(10, 26, 18, 0.85)",
+        borderBottom: "1px solid rgba(201, 162, 39, 0.2)",
+        backdropFilter: "blur(16px)",
+        WebkitBackdropFilter: "blur(16px)",
+        boxShadow: "0 2px 16px rgba(0,0,0,0.4)",
       }}
     >
       <div className="flex items-center gap-6">
-        <Link href="/" className="text-xl font-bold" style={{ color: "var(--gold)" }}>
-          Mj Score
+        <Link href="/" className="flex items-center gap-2">
+          <div className="rounded-lg overflow-hidden" style={{ width: 28, height: 28, flexShrink: 0 }}>
+            <Image src="/icon.png" alt="logo" width={28} height={28} priority />
+          </div>
+          <span
+            className="text-lg font-bold tracking-wider hidden sm:block"
+            style={{ color: "var(--gold)", letterSpacing: "0.08em" }}
+          >
+            Mj Score
+          </span>
         </Link>
         {user && (
-          <div className="flex gap-4 text-sm">
+          <div className="flex gap-5">
             {navLink("/", "成績")}
             {navLink("/history", "履歴")}
             {(isAdmin || isParticipant) && navLink("/input", "入力")}
@@ -54,10 +65,10 @@ export default function NavBar() {
       <div className="flex items-center gap-3">
         {user && (
           <>
-            <span className="text-sm text-gray-300 hidden sm:block">
+            <span className="text-xs hidden sm:block" style={{ color: "rgba(201,162,39,0.7)" }}>
               {isAdmin ? "👑 " : ""}{displayName}
             </span>
-            <button onClick={signOut} className="btn-outline text-sm py-1 px-3">
+            <button onClick={signOut} className="btn-outline text-xs py-1 px-3">
               ログアウト
             </button>
           </>
