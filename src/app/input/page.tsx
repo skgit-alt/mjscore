@@ -505,7 +505,26 @@ export default function InputPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold gold-text">半荘入力</h1>
+      {/* タイトル行：スマホではメンバー選択中に決定ボタンも表示 */}
+      <div
+        className="flex items-center justify-between md:static sticky z-30 -mx-4 px-4 py-2 md:py-0 md:mx-0 md:px-0"
+        style={{
+          top: "var(--navbar-h, 56px)",
+          background: !confirmed ? "rgba(8,15,11,0.97)" : "transparent",
+          backdropFilter: !confirmed ? "blur(8px)" : undefined,
+        }}
+      >
+        <h1 className="text-2xl font-bold gold-text">半荘入力</h1>
+        {!confirmed && (
+          <button
+            onClick={handleConfirm}
+            disabled={numSelected < 3}
+            className="md:hidden btn-gold disabled:opacity-40 disabled:cursor-not-allowed text-sm px-3 py-1.5"
+          >
+            {numSelected >= 3 ? `この${numSelected}人で決定` : `${numSelected} / 3人`}
+          </button>
+        )}
+      </div>
 
       {/* ステップ1：メンバー選択 */}
       {!confirmed ? (
@@ -516,7 +535,7 @@ export default function InputPage() {
             <h2 className="text-lg font-semibold gold-text">今日のメンバーを選択</h2>
             <p className="text-sm text-gray-400">3〜5人選んでください</p>
 
-            <div className="space-y-2">
+            <div className="grid grid-cols-2 gap-2">
               {allPlayers.map((p) => {
                 const selected = selectedIds.includes(p.id);
                 const disabled = !selected && selectedIds.length >= 5;
@@ -525,7 +544,7 @@ export default function InputPage() {
                     key={p.id}
                     onClick={() => !disabled && togglePlayer(p.id)}
                     disabled={disabled}
-                    className="w-full text-left px-4 py-3 rounded transition-all"
+                    className="text-left px-3 py-2.5 rounded transition-all"
                     style={{
                       background: selected ? "rgba(201,162,39,0.2)" : "rgba(26,58,42,0.6)",
                       border: selected ? "1px solid var(--gold)" : "1px solid rgba(201,162,39,0.2)",
@@ -533,7 +552,7 @@ export default function InputPage() {
                       cursor: disabled ? "not-allowed" : "pointer",
                     }}
                   >
-                    <span className="mr-2">{selected ? "✓" : "　"}</span>
+                    <span className="mr-1.5">{selected ? "✓" : "　"}</span>
                     {p.name}
                   </button>
                 );
@@ -558,21 +577,6 @@ export default function InputPage() {
               </button>
             </div>
 
-            {/* モバイルのみ：下部にボタン */}
-            <div className="md:hidden flex items-center justify-between pt-2 border-t" style={{ borderColor: "rgba(201,162,39,0.15)" }}>
-              <span className="text-sm text-gray-400">
-                {numSelected >= 3
-                  ? <span style={{ color: "var(--gold)", fontWeight: 600 }}>{numSelected}人戦</span>
-                  : `${numSelected}人選択中`}
-              </span>
-              <button
-                onClick={handleConfirm}
-                disabled={numSelected < 3}
-                className="btn-gold disabled:opacity-40 disabled:cursor-not-allowed"
-              >
-                {numSelected >= 3 ? `この${numSelected}人で決定` : "3人以上選択してください"}
-              </button>
-            </div>
           </div>
 
           {/* 右列（デスクトップのみ）：選択中メンバー + 決定ボタン（sticky固定） */}
