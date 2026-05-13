@@ -219,12 +219,14 @@ export default function HistoryPage() {
                                         <td key={id}>
                                           <div className="flex flex-col items-center gap-0.5">
                                             <span className="text-gray-400" style={{ fontSize: "0.65rem" }}>{r.rank}位</span>
-                                            <span className={`font-semibold text-sm ${r.point >= 0 ? "positive" : "negative"}`}>
-                                              {r.point >= 0 ? "+" : ""}{r.point}p
-                                            </span>
-                                            {r.tobi && (
-                                              <span className="text-xs font-bold" style={{ color: "#f87171" }}>飛び</span>
-                                            )}
+                                            <div className="flex items-baseline gap-1">
+                                              <span className={`font-bold ${r.point >= 0 ? "positive" : "negative"}`} style={{ fontSize: "0.95rem" }}>
+                                                {r.point >= 0 ? "+" : ""}{r.point}p
+                                              </span>
+                                              {r.tobi && (
+                                                <span className="font-bold" style={{ color: "#f87171", fontSize: "0.75rem" }}>飛び</span>
+                                              )}
+                                            </div>
                                           </div>
                                         </td>
                                       );
@@ -239,7 +241,7 @@ export default function HistoryPage() {
                               <td className="font-semibold gold-text text-xs">合計</td>
                               {colPlayers.map((id) => (
                                 <td key={id}>
-                                  <span className={`font-semibold text-sm ${roundTotals[id] >= 0 ? "positive" : "negative"}`}>
+                                  <span className={`font-bold ${roundTotals[id] >= 0 ? "positive" : "negative"}`} style={{ fontSize: "0.95rem" }}>
                                     {roundTotals[id] >= 0 ? "+" : ""}{roundTotals[id]}p
                                   </span>
                                 </td>

@@ -484,8 +484,13 @@ export default function InputPage() {
         tobiCount: tobiCounts[playerId],
       }));
 
+      // 対局日は選択した日付、時刻は保存ボタンを押した瞬間
+      const playedDate = new Date(playedAt + "T00:00:00");
+      const now = new Date();
+      playedDate.setHours(now.getHours(), now.getMinutes(), now.getSeconds());
+
       await addGame({
-        playedAt: Timestamp.fromDate(new Date(playedAt + "T00:00:00")),
+        playedAt: Timestamp.fromDate(playedDate),
         numPlayers: numSelected as 3 | 4 | 5,
         ba: totalBa,
         numGames: validRowCount,
