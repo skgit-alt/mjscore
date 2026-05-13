@@ -509,78 +509,129 @@ export default function InputPage() {
 
       {/* ステップ1：メンバー選択 */}
       {!confirmed ? (
-        <div className="card p-5 space-y-4 max-w-md">
-          <h2 className="text-lg font-semibold gold-text">今日のメンバーを選択</h2>
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-5 items-start">
 
-          <label className="flex flex-col gap-1">
-            <span className="text-sm text-gray-400">対局日</span>
-            <input
-              type="date"
-              value={playedAt}
-              onChange={(e) => setPlayedAt(e.target.value)}
-              className="w-44"
-            />
-          </label>
+          {/* 左列：プレイヤー一覧 */}
+          <div className="card p-5 space-y-4">
+            <h2 className="text-lg font-semibold gold-text">今日のメンバーを選択</h2>
+            <p className="text-sm text-gray-400">3〜5人選んでください</p>
 
-          <p className="text-sm text-gray-400">3〜5人選んでください</p>
-          <div className="space-y-2">
-            {allPlayers.map((p) => {
-              const selected = selectedIds.includes(p.id);
-              const disabled = !selected && selectedIds.length >= 5;
-              return (
-                <button
-                  key={p.id}
-                  onClick={() => !disabled && togglePlayer(p.id)}
-                  disabled={disabled}
-                  className="w-full text-left px-4 py-3 rounded transition-all"
-                  style={{
-                    background: selected ? "rgba(201,162,39,0.2)" : "rgba(26,58,42,0.6)",
-                    border: selected ? "1px solid var(--gold)" : "1px solid rgba(201,162,39,0.2)",
-                    color: disabled ? "#555" : "#f0ead6",
-                    cursor: disabled ? "not-allowed" : "pointer",
-                  }}
-                >
-                  <span className="mr-2">{selected ? "✓" : "　"}</span>
-                  {p.name}
-                </button>
-              );
-            })}
+            <div className="space-y-2">
+              {allPlayers.map((p) => {
+                const selected = selectedIds.includes(p.id);
+                const disabled = !selected && selectedIds.length >= 5;
+                return (
+                  <button
+                    key={p.id}
+                    onClick={() => !disabled && togglePlayer(p.id)}
+                    disabled={disabled}
+                    className="w-full text-left px-4 py-3 rounded transition-all"
+                    style={{
+                      background: selected ? "rgba(201,162,39,0.2)" : "rgba(26,58,42,0.6)",
+                      border: selected ? "1px solid var(--gold)" : "1px solid rgba(201,162,39,0.2)",
+                      color: disabled ? "#555" : "#f0ead6",
+                      cursor: disabled ? "not-allowed" : "pointer",
+                    }}
+                  >
+                    <span className="mr-2">{selected ? "✓" : "　"}</span>
+                    {p.name}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="flex items-center gap-2 pt-1">
+              <input
+                type="text"
+                value={newPlayerName}
+                onChange={(e) => setNewPlayerName(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter") handleAddPlayer(); }}
+                placeholder="新しいメンバーを追加..."
+                className="flex-1 text-sm py-1.5"
+              />
+              <button
+                onClick={handleAddPlayer}
+                disabled={!newPlayerName.trim() || addingPlayer}
+                className="btn-outline text-sm py-1 px-3 disabled:opacity-40"
+              >
+                {addingPlayer ? "追加中..." : "追加"}
+              </button>
+            </div>
+
+            {/* モバイルのみ：下部にボタン */}
+            <div className="md:hidden flex items-center justify-between pt-2 border-t" style={{ borderColor: "rgba(201,162,39,0.15)" }}>
+              <span className="text-sm text-gray-400">
+                {numSelected >= 3
+                  ? <span style={{ color: "var(--gold)", fontWeight: 600 }}>{numSelected}人戦</span>
+                  : `${numSelected}人選択中`}
+              </span>
+              <button
+                onClick={handleConfirm}
+                disabled={numSelected < 3}
+                className="btn-gold disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                {numSelected >= 3 ? `この${numSelected}人で決定` : "3人以上選択してください"}
+              </button>
+            </div>
           </div>
-          <div className="flex items-center gap-2 pt-1">
-            <input
-              type="text"
-              value={newPlayerName}
-              onChange={(e) => setNewPlayerName(e.target.value)}
-              onKeyDown={(e) => { if (e.key === "Enter") handleAddPlayer(); }}
-              placeholder="新しいメンバーを追加..."
-              className="flex-1 text-sm py-1.5"
-            />
-            <button
-              onClick={handleAddPlayer}
-              disabled={!newPlayerName.trim() || addingPlayer}
-              className="btn-outline text-sm py-1 px-3 disabled:opacity-40"
-            >
-              {addingPlayer ? "追加中..." : "追加"}
-            </button>
-          </div>
 
-          <div className="flex items-center justify-between pt-2">
-            <span className="text-sm text-gray-400">
-              {numSelected}人選択中
-              {numSelected >= 3 && (
-                <span className="ml-2" style={{ color: "var(--gold)" }}>
-                  （{numSelected}人戦）
-                </span>
+          {/* 右列（デスクトップのみ）：選択中メンバー + 決定ボタン（sticky固定） */}
+          <div className="hidden md:block sticky top-16 self-start">
+            <div className="card p-5 space-y-4">
+              <h3 className="font-semibold gold-text">選択中のメンバー</h3>
+
+              {numSelected === 0 ? (
+                <p className="text-sm text-gray-500 py-3 text-center">← 左からメンバーを選択</p>
+              ) : (
+                <div className="space-y-0.5">
+                  {activePlayers.map((p, i) => (
+                    <div
+                      key={p.id}
+                      className="flex items-center justify-between py-2"
+                      style={{ borderBottom: "1px solid rgba(201,162,39,0.12)" }}
+                    >
+                      <span className="font-semibold">
+                        <span className="text-gray-400 text-sm mr-2">{i + 1}.</span>
+                        {p.name}
+                      </span>
+                      <button
+                        onClick={() => togglePlayer(p.id)}
+                        className="text-gray-500 hover:text-red-400 transition-colors px-2 text-sm"
+                      >
+                        ✕
+                      </button>
+                    </div>
+                  ))}
+                </div>
               )}
-            </span>
-            <button
-              onClick={handleConfirm}
-              disabled={numSelected < 3}
-              className="btn-gold disabled:opacity-40 disabled:cursor-not-allowed"
-            >
-              決定して入力へ →
-            </button>
+
+              <label className="flex flex-col gap-1">
+                <span className="text-xs text-gray-400">対局日</span>
+                <input
+                  type="date"
+                  value={playedAt}
+                  onChange={(e) => setPlayedAt(e.target.value)}
+                />
+              </label>
+
+              <button
+                onClick={handleConfirm}
+                disabled={numSelected < 3}
+                className="btn-gold w-full disabled:opacity-40 disabled:cursor-not-allowed"
+                style={{ fontSize: "1rem" }}
+              >
+                {numSelected >= 3
+                  ? `この${numSelected}人で決定 →`
+                  : numSelected === 0
+                  ? "メンバーを選択してください"
+                  : `あと${3 - numSelected}人選択してください`}
+              </button>
+              {numSelected >= 3 && (
+                <p className="text-xs text-center text-gray-500">{numSelected}人戦</p>
+              )}
+            </div>
           </div>
+
         </div>
       ) : (
         <>
