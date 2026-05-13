@@ -782,49 +782,55 @@ export default function InputPage() {
                                 </button>
                               )}
 
-                              <label
-                                className="flex items-center gap-1 cursor-pointer text-xs"
-                                style={{ color: isFirst ? "var(--gold)" : "#888" }}
-                              >
-                                <input
-                                  type="radio"
-                                  name={`first-${row.id}`}
-                                  checked={isFirst}
-                                  onChange={() => updateFirst(row.id, p.id)}
-                                  className="accent-yellow-400"
-                                />
-                                1位
-                              </label>
-
-                              {isFirst ? (
-                                <div className="flex items-center gap-0.5">
-                                  <div
-                                    className="text-center text-sm px-2 py-1 rounded"
-                                    style={{
-                                      background: "rgba(201,162,39,0.08)",
-                                      border: "1px dashed rgba(201,162,39,0.4)",
-                                      color: "var(--gold)",
-                                      minWidth: "60px",
-                                      width: "68px",
-                                    }}
-                                  >
-                                    {result?.score != null ? Math.floor(result.score / 100) : "—"}
-                                  </div>
-                                  <span className="text-gray-400 text-sm font-mono">00</span>
-                                </div>
-                              ) : (
-                                <div className="flex items-center gap-0.5">
+                              {/* 1位ラジオ ＋ 得点入力 横並び */}
+                              <div className="flex items-center gap-1.5 justify-center flex-wrap py-1">
+                                <label
+                                  className="flex items-center gap-0.5 cursor-pointer shrink-0"
+                                  style={{
+                                    color: isFirst ? "var(--gold)" : "#888",
+                                    fontSize: "0.875rem",
+                                    fontWeight: isFirst ? 700 : 500,
+                                  }}
+                                >
                                   <input
-                                    type="number"
-                                    value={row.scores[p.id] ?? ""}
-                                    onChange={(e) => updateScore(row.id, p.id, e.target.value)}
-                                    placeholder="250"
-                                    className="text-center"
-                                    style={{ minWidth: "60px", width: "68px" }}
+                                    type="radio"
+                                    name={`first-${row.id}`}
+                                    checked={isFirst}
+                                    onChange={() => updateFirst(row.id, p.id)}
+                                    className="accent-yellow-400"
                                   />
-                                  <span className="text-gray-400 text-sm font-mono">00</span>
-                                </div>
-                              )}
+                                  1位
+                                </label>
+                                {isFirst ? (
+                                  <div className="flex items-center gap-0.5">
+                                    <div
+                                      className="text-center text-sm px-2 py-1 rounded"
+                                      style={{
+                                        background: "rgba(201,162,39,0.08)",
+                                        border: "1px dashed rgba(201,162,39,0.4)",
+                                        color: "var(--gold)",
+                                        minWidth: "56px",
+                                        width: "62px",
+                                      }}
+                                    >
+                                      {result?.score != null ? Math.floor(result.score / 100) : "—"}
+                                    </div>
+                                    <span className="text-gray-400 text-sm font-mono">00</span>
+                                  </div>
+                                ) : (
+                                  <div className="flex items-center gap-0.5">
+                                    <input
+                                      type="number"
+                                      value={row.scores[p.id] ?? ""}
+                                      onChange={(e) => updateScore(row.id, p.id, e.target.value)}
+                                      placeholder="250"
+                                      className="text-center"
+                                      style={{ minWidth: "56px", width: "62px" }}
+                                    />
+                                    <span className="text-gray-400 text-sm font-mono">00</span>
+                                  </div>
+                                )}
+                              </div>
 
                               {!isFirst &&
                                 row.scores[p.id] != null &&
