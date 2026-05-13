@@ -74,7 +74,7 @@ export default function LoginScreen() {
         >
           Mj Score
         </h1>
-        <p className="text-gray-500 mt-2 text-sm tracking-wide">対局記録・成績管理</p>
+        <p className="text-gray-400 mt-2 tracking-wide" style={{ fontSize: "0.95rem" }}>対局記録・成績管理</p>
       </div>
 
       {/* Auth error */}
@@ -95,12 +95,12 @@ export default function LoginScreen() {
           boxShadow: "0 8px 32px rgba(0,0,0,0.4), inset 0 1px 0 rgba(201,162,39,0.1)",
         }}
       >
-        <h2 className="font-semibold text-center" style={{ color: "var(--gold)", letterSpacing: "0.05em" }}>
+        <h2 className="font-bold text-center text-lg" style={{ color: "var(--gold)", letterSpacing: "0.05em" }}>
           ログイン
         </h2>
         <form onSubmit={handleParticipantLogin} className="space-y-3">
           <label className="flex flex-col gap-1.5">
-            <span className="text-xs text-gray-400 tracking-wide">ログインID</span>
+            <span className="text-sm text-gray-400 font-semibold">ログインID</span>
             <input
               type="text"
               value={loginId}
@@ -111,7 +111,7 @@ export default function LoginScreen() {
             />
           </label>
           <label className="flex flex-col gap-1.5">
-            <span className="text-xs text-gray-400 tracking-wide">パスワード</span>
+            <span className="text-sm text-gray-400 font-semibold">パスワード</span>
             <input
               type="password"
               value={password}

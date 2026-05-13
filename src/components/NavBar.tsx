@@ -14,10 +14,10 @@ export default function NavBar() {
     return (
       <Link
         href={href}
-        className="transition-colors text-sm"
+        className="transition-colors"
         style={isActive
-          ? { color: "var(--gold)", fontWeight: 600, borderBottom: "2px solid var(--gold)", paddingBottom: "2px" }
-          : { color: "rgba(240,234,214,0.7)" }
+          ? { color: "var(--gold)", fontWeight: 700, fontSize: "1rem", borderBottom: "2px solid var(--gold)", paddingBottom: "2px" }
+          : { color: "rgba(240,234,214,0.75)", fontSize: "1rem", fontWeight: 500 }
         }
       >
         {label}
@@ -65,10 +65,10 @@ export default function NavBar() {
       <div className="flex items-center gap-3">
         {user && (
           <>
-            <span className="text-xs hidden sm:block" style={{ color: "rgba(201,162,39,0.7)" }}>
+            <span className="text-sm hidden sm:block" style={{ color: "rgba(201,162,39,0.8)", fontWeight: 600 }}>
               {isAdmin ? "👑 " : ""}{displayName}
             </span>
-            <button onClick={signOut} className="btn-outline text-xs py-1 px-3">
+            <button onClick={signOut} className="btn-outline text-sm py-1.5 px-4">
               ログアウト
             </button>
           </>

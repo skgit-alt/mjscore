@@ -39,13 +39,12 @@ export default function MobileNav() {
                 color: isActive ? "var(--gold)" : "rgba(240,234,214,0.4)",
               }}
             >
-              <span className="text-xl leading-none">{tab.icon}</span>
+              <span className="text-2xl leading-none">{tab.icon}</span>
               <span
-                className="text-xs"
                 style={{
-                  fontWeight: isActive ? 700 : 400,
-                  fontSize: "0.65rem",
-                  letterSpacing: "0.05em",
+                  fontWeight: isActive ? 700 : 500,
+                  fontSize: "0.75rem",
+                  letterSpacing: "0.03em",
                 }}
               >
                 {tab.label}
