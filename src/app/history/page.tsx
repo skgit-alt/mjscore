@@ -55,7 +55,12 @@ export default function HistoryPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold gold-text">対局履歴</h1>
+      <div className="flex items-baseline gap-3">
+        <h1 className="text-2xl font-bold gold-text">対局履歴</h1>
+        {games.length > 0 && (
+          <span className="text-sm text-gray-400">{games.length}件</span>
+        )}
+      </div>
 
       {games.length === 0 ? (
         <div className="card p-8 text-center text-gray-400">

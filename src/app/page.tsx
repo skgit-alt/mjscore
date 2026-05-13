@@ -128,7 +128,7 @@ export default function HomePage() {
             const oldest = new Date(Math.min(...dates.map((d) => d.getTime())));
             const newest = new Date(Math.max(...dates.map((d) => d.getTime())));
             return (
-              <p className="text-xs text-gray-400 mt-1">{fmt(oldest)} 〜 {fmt(newest)}</p>
+              <p className="text-sm text-gray-400 mt-1">{fmt(oldest)} 〜 {fmt(newest)}　全{games.length}回</p>
             );
           })()}
         </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   LineChart,
   Line,
@@ -9,6 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
   ReferenceLine,
+  ResponsiveContainer,
 } from "recharts";
 import { Player, Game } from "@/lib/types";
 
@@ -23,17 +24,28 @@ const COLORS = [
   "#facc15", "#818cf8", "#4ade80", "#e879f9",
 ];
 
-const PX_PER_POINT = 19;
-const Y_AXIS_WIDTH = 55;
+const PX_PER_POINT = 22;
+const Y_AXIS_WIDTH = 58;
 
 export default function PlayerChart({ players, games }: PlayerChartProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const [containerWidth, setContainerWidth] = useState(600);
 
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollLeft = scrollRef.current.scrollWidth;
     }
   }, [games.length]);
+
+  useEffect(() => {
+    const el = scrollRef.current?.parentElement;
+    if (!el) return;
+    const ro = new ResizeObserver((entries) => {
+      setContainerWidth(entries[0].contentRect.width);
+    });
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   if (games.length === 0) {
     return (
@@ -65,7 +77,9 @@ export default function PlayerChart({ players, games }: PlayerChartProps) {
     data.push(row);
   });
 
-  const chartWidth = Math.max(600, data.length * PX_PER_POINT + Y_AXIS_WIDTH);
+  const minChartWidth = Math.max(containerWidth - 110, 300);
+  const chartWidth = Math.max(minChartWidth, data.length * PX_PER_POINT + Y_AXIS_WIDTH);
+  const chartHeight = containerWidth < 500 ? 320 : 420;
 
   // 凡例：通算ポイント降順
   const sortedPlayers = [...players].sort((a, b) =>
@@ -74,93 +88,103 @@ export default function PlayerChart({ players, games }: PlayerChartProps) {
 
   return (
     <div className="card p-4">
-      <h2 className="text-lg font-semibold mb-2 gold-text">通算ポイント推移</h2>
-      <div className="flex gap-3">
-        {/* スクロール可能なグラフエリア */}
-        <div ref={scrollRef} style={{ overflowX: "auto", overflowY: "hidden", flex: 1 }}>
-          <LineChart
-            width={chartWidth}
-            height={520}
-            data={data}
-            margin={{ top: 5, right: 24, left: 0, bottom: 5 }}
-          >
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(201,162,39,0.15)" />
-            <XAxis
-              dataKey="name"
-              stroke="#a0a0a0"
-              tick={{ fill: "#a0a0a0", fontSize: 11 }}
-              interval={0}
-            />
-            <YAxis
-              stroke="#a0a0a0"
-              tick={{ fill: "#a0a0a0", fontSize: 12 }}
-              width={Y_AXIS_WIDTH}
-            />
-            <ReferenceLine y={0} stroke="rgba(201,162,39,0.4)" strokeDasharray="4 4" />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: "#1a3a2a",
-                border: "1px solid rgba(201,162,39,0.4)",
-                borderRadius: "6px",
-              }}
-              labelStyle={{ color: "#c9a227", fontWeight: 600 }}
-              labelFormatter={(label, payload) => {
-                const date = (payload?.[0]?.payload as Record<string, string>)?.date ?? "";
-                return `第${label}回　${date}`;
-              }}
-              formatter={(value, name, props) => {
-                const nameStr = String(name ?? "");
-                const player = players.find((p) => p.id === nameStr);
-                const delta = (props.payload as Record<string, number>)[`${nameStr}_delta`];
-                const v = delta !== undefined ? delta : Number(value);
-                return [`${v > 0 ? "+" : ""}${v}p`, player?.name ?? nameStr];
-              }}
-            />
-            {players.map((p, i) => (
-              <Line
-                key={p.id}
-                type="monotone"
-                dataKey={p.id}
-                stroke={COLORS[i % COLORS.length]}
-                strokeWidth={2}
-                dot={{ r: 3 }}
-                activeDot={{ r: 5 }}
-                connectNulls
-              />
-            ))}
-          </LineChart>
-        </div>
+      <h2 className="text-lg font-bold mb-3 gold-text">通算ポイント推移</h2>
 
-        {/* 右側の凡例（通算ポイント降順） */}
-        <div className="flex flex-col justify-center gap-5 py-4 shrink-0" style={{ minWidth: "80px" }}>
-          {sortedPlayers.map((p, i) => {
-            const colorIdx = players.findIndex((pl) => pl.id === p.id);
-            const color = COLORS[colorIdx % COLORS.length];
-            const pt = cumulative[p.id] ?? 0;
-            return (
-              <div key={p.id} className="flex items-center gap-1.5">
-                <span
-                  style={{
-                    display: "inline-block",
-                    width: 10,
-                    height: 10,
-                    borderRadius: "50%",
-                    background: color,
-                    flexShrink: 0,
-                  }}
-                />
-                <div className="flex flex-col leading-tight">
-                  <span style={{ color, fontSize: "0.75rem", fontWeight: 600 }}>{p.name}</span>
-                  <span style={{ fontSize: "0.65rem", color: pt >= 0 ? "#34d399" : "#f87171" }}>
-                    {pt > 0 ? "+" : ""}{pt}p
-                  </span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+      {/* 凡例（上部・横並び） */}
+      <div className="flex flex-wrap gap-x-4 gap-y-1.5 mb-3 px-1">
+        {sortedPlayers.map((p) => {
+          const colorIdx = players.findIndex((pl) => pl.id === p.id);
+          const color = COLORS[colorIdx % COLORS.length];
+          const pt = cumulative[p.id] ?? 0;
+          return (
+            <div key={p.id} className="flex items-center gap-1.5">
+              <span
+                style={{
+                  display: "inline-block",
+                  width: 12,
+                  height: 12,
+                  borderRadius: "50%",
+                  background: color,
+                  flexShrink: 0,
+                }}
+              />
+              <span style={{ color, fontSize: "0.875rem", fontWeight: 700 }}>{p.name}</span>
+              <span
+                style={{
+                  fontSize: "0.875rem",
+                  fontWeight: 700,
+                  color: pt >= 0 ? "#5fd48a" : "#f87171",
+                }}
+              >
+                {pt > 0 ? "+" : ""}{pt}p
+              </span>
+            </div>
+          );
+        })}
       </div>
-      <p className="text-xs text-right text-gray-500 mt-1 pr-1">回数</p>
+
+      {/* グラフ（横スクロール） */}
+      <div ref={scrollRef} style={{ overflowX: "auto", overflowY: "hidden" }}>
+        <LineChart
+          width={chartWidth}
+          height={chartHeight}
+          data={data}
+          margin={{ top: 8, right: 24, left: 0, bottom: 5 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="rgba(201,162,39,0.15)" />
+          <XAxis
+            dataKey="name"
+            stroke="#a0a0a0"
+            tick={{ fill: "#a0a0a0", fontSize: 12 }}
+            interval={Math.floor(data.length / 20)}
+          />
+          <YAxis
+            stroke="#a0a0a0"
+            tick={{ fill: "#a0a0a0", fontSize: 13 }}
+            width={Y_AXIS_WIDTH}
+          />
+          <ReferenceLine y={0} stroke="rgba(201,162,39,0.5)" strokeDasharray="4 4" />
+          <Tooltip
+            contentStyle={{
+              backgroundColor: "rgba(13, 32, 24, 0.97)",
+              border: "1px solid rgba(201,162,39,0.45)",
+              borderRadius: "8px",
+              fontSize: "0.875rem",
+              padding: "8px 12px",
+            }}
+            labelStyle={{ color: "#c9a227", fontWeight: 700, marginBottom: "4px" }}
+            labelFormatter={(label, payload) => {
+              const date = (payload?.[0]?.payload as Record<string, string>)?.date ?? "";
+              return `第${label}回　${date}`;
+            }}
+            formatter={(value, name, props) => {
+              const nameStr = String(name ?? "");
+              const player = players.find((p) => p.id === nameStr);
+              const delta = (props.payload as Record<string, number>)[`${nameStr}_delta`];
+              const v = delta !== undefined ? delta : Number(value);
+              const total = Number(value);
+              return [
+                `${v > 0 ? "+" : ""}${v}p　(累計: ${total > 0 ? "+" : ""}${total}p)`,
+                player?.name ?? nameStr,
+              ];
+            }}
+          />
+          {players.map((p, i) => (
+            <Line
+              key={p.id}
+              type="monotone"
+              dataKey={p.id}
+              stroke={COLORS[i % COLORS.length]}
+              strokeWidth={2.5}
+              dot={{ r: 3 }}
+              activeDot={{ r: 6 }}
+              connectNulls
+            />
+          ))}
+        </LineChart>
+      </div>
+
+      <p className="text-xs text-right text-gray-500 mt-1 pr-1">← 左右スクロール可　回数 →</p>
     </div>
   );
 }
