@@ -616,7 +616,14 @@ export default function InputPage() {
             </button>
           </div>
 
-          <div className="card overflow-x-auto">
+          <div
+            className="card"
+            style={{
+              maxHeight: "calc(100vh - 230px)",
+              minHeight: "300px",
+              overflow: "auto",
+            }}
+          >
             <table>
               <thead className="sticky-thead">
                 <tr>

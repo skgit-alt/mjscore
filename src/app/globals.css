@@ -174,9 +174,10 @@ tr:hover td {
 }
 
 /* ── Sticky table header (input page) ── */
+/* コンテナ内スクロールなので top: 0 でコンテナの上端に貼り付ける */
 .sticky-thead th {
   position: sticky;
-  top: 52px; /* ナビバーの高さ分下にずらす */
+  top: 0;
   z-index: 20;
   background-color: rgba(8, 20, 13, 0.98);
   backdrop-filter: blur(8px);
