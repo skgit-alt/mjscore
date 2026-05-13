@@ -173,6 +173,17 @@ tr:hover td {
   font-weight: 700;
 }
 
+/* ── Sticky table header (input page) ── */
+.sticky-thead th {
+  position: sticky;
+  top: 52px; /* ナビバーの高さ分下にずらす */
+  z-index: 20;
+  background-color: rgba(8, 20, 13, 0.98);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
 /* ── Page section headers ── */
 .page-title {
   font-size: 1.5rem;

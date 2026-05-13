@@ -189,6 +189,7 @@ export default function InputPage() {
   const [saving, setSaving] = useState(false);
   const [newPlayerName, setNewPlayerName] = useState("");
   const [addingPlayer, setAddingPlayer] = useState(false);
+  const [lastSaved, setLastSaved] = useState<Date | null>(null);
 
   useEffect(() => {
     Promise.all([getPlayers(), getSettings()]).then(([p, s]) => {
@@ -209,6 +210,7 @@ export default function InputPage() {
   useEffect(() => {
     if (selectedIds.length > 0 || rows.length > 0) {
       saveDraft(selectedIds, confirmed, rows, playedAt, hiruRow, yakumanRows);
+      setLastSaved(new Date());
     }
   }, [selectedIds, confirmed, rows, playedAt, hiruRow, yakumanRows]);
 
@@ -616,7 +618,7 @@ export default function InputPage() {
 
           <div className="card overflow-x-auto">
             <table>
-              <thead>
+              <thead className="sticky-thead">
                 <tr>
                   <th className="w-10">回</th>
                   {activePlayers.map((p) => (
@@ -1310,6 +1312,17 @@ export default function InputPage() {
               </tbody>
             </table>
           </div>
+
+          {/* 自動保存インジケーター */}
+          {lastSaved && (
+            <div className="flex items-center gap-1.5 text-sm" style={{ color: "rgba(95,212,138,0.8)" }}>
+              <span>✓</span>
+              <span>
+                自動保存済み（{lastSaved.toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit", second: "2-digit" })}）
+              </span>
+              <span className="text-xs text-gray-500">― リセットor保存するまで消えません</span>
+            </div>
+          )}
 
           <div className="flex gap-3 justify-between flex-wrap">
             <div className="flex gap-2 flex-wrap">
